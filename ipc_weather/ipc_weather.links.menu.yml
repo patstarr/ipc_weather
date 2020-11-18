@@ -1,0 +1,5 @@
+ipc_weather.default:
+  title: 'IPC Weather'
+  route_name: ipc_weather.weather_controller_showcase
+  weight: 100
+  menu_name: main

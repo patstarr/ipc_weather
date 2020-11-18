@@ -1,0 +1,21 @@
+<div>
+  <a href="/ipc_weather/showcase/atlanta">Atlanta</a> | <a href="/ipc_weather/showcase/chicago">Chicago</a> | <a href="/ipc_weather/showcase/phoenix">Phoenix</a>
+</div>
+<div class="grid-container">
+  <div class="item1">
+    <h1>{{ weather_data['location'] }}</h1>
+  </div>
+  <div class="item2">
+    <p>Description: {{ weather_data['description'] }}</p>
+    <p><img src="{{ weather_data['icon'] }}" class=""></p>
+  </div>
+  <div class="item3">
+    High: {{ weather_data['high'] }}
+  </div>
+  <div class="item4">
+    Low: {{ weather_data['low'] }}
+  </div>
+  <div class="item5">
+    Temp: {{ weather_data['temp'] }}
+  </div>
+</div>

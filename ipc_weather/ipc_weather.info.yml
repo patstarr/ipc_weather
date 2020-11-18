@@ -1,0 +1,5 @@
+name: 'IPC Weather'
+type: module
+description: 'IPC custom weather module'
+core: 8.x
+package: 'IPC'

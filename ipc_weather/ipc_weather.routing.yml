@@ -1,0 +1,8 @@
+ipc_weather.weather_controller_showcase:
+  path: '/ipc_weather/showcase/{city}'
+  defaults:
+    _controller: '\Drupal\ipc_weather\Controller\WeatherController::showcase'
+    _title: 'IPC Weather Showcase'
+    city: 'atlanta'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,9 @@
+ipc_weather:
+  version: 1.x
+  css:
+    theme:
+      css/ipc-weather.css: {}
+  js:
+    js/ipc-weather.js: {}
+  dependencies:
+    - core/jquery
